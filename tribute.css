@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(191, 219, 105);
+    background-image: url("zero.png");
+    background-repeat: repeat;
+    background-size: 80px 60px;
+    background-blend-mode: luminosity;
+    padding-top: 90px;
+}
+#zero-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 188);
+    width: 90%;
+    height: 800px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin: auto;
+    border-radius: 45px;
+}
+.header-flex{
+    display: flex;
+    background-color: rgb(230, 235, 188);
+    margin: auto;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+h1 {
+    color: rgb(128, 165, 7);
+    font-size: 88px;
+    font-family: "Times New Roman", Georgia, Times, serif
+}
+.image {
+    display: flex;
+    margin: auto;
+    padding-bottom: 90px;
+    align-self: center;
+}
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 235, 188);
+    margin: auto;
+    align-self: center;
+    padding-top: 0px;
+    width: 80%;
+    height: 400px;
+}
+.main1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-end;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: flex-end;
+    padding-top: 120px;
+}
+.main1a {
+    display: flex;
+    padding-bottom: 20px;
+}
+.main1b {
+    display: flex;
+    flex-direction: column;
+}
+
+.main2a {
+    display: flex;
+    padding-bottom: 20px;
+}
+.main2b {
+    display: flex;
+    flex-direction: column;
+}
+.footer-flex{
+    display: flex;
+    background-color: rgb(230, 235, 188);
+    margin: auto;
+    align-items: flex-end;
+}
+
+
+
+image {
+    size: 30%;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /*for IE8 and earlier/
+}
